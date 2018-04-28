@@ -1,4 +1,4 @@
-1. Execute "Install modules.bat".
+1. Execute "Setup.bat" as ADMINISTRATOR. It will Download and Install node.js and the required modules.
 2. Change the Token and the channelID.
 3. Execute "Start.bat".
 
