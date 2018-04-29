@@ -204,29 +204,29 @@ client.on("message", async message => {
 
                 if (BirthdaySplitDay > 31 || BirthdaySplitDay <= 0) {
                     message.delete().catch(O_o => {});
-                    console.log("User: "+ID+" did a mistake entering their birthday");
-                    message.channel.send("Something went horribly wrong...");
+                    console.log("User: "+ID+" did a mistake entering their birthday(DAY)");
+                    message.channel.send("Something with the Day is wrong");
                     return false;
                 }
 
                 else if (BirthdaySplitMonth > 12 || BirthdaySplitMonth <= 0) {
                     message.delete().catch(O_o => {});
-                    console.log("User: "+message.member.id+" did a mistake entering their birthday");
-                    message.channel.send("Something went horribly wrong...");
+                    console.log("User: "+message.member.id+" did a mistake entering their birthday(MONTH)");
+                    message.channel.send("Something with the Month is wrong");
                     return false;
                 }
 
                 else if (BirthdaySplitDay > 30 && BirthdaySplitMonth % 2 === 1) {
                     message.delete().catch(O_o => {});
-                    console.log("User: "+message.member.id+" did a mistake entering their birthday");
-                    mmessage.channel.send("Something went horribly wrong...");
+                    console.log("User: "+message.member.id+" did a mistake entering their birthday(MONTH)");
+                    message.channel.send("Something with the Month is wrong");
                     return false;
                 }
 
                 else if (BirthdaySplitDay > 28 && BirthdaySplitMonth === "02") {
                     message.delete().catch(O_o => {});
-                    console.log("User: "+message.member.id+" did a mistake entering their birthday");
-                    message.channel.send("Something went horribly wrong...");
+                    console.log("User: "+message.member.id+" did a mistake entering their birthday(MONTH)");
+                    message.channel.send("Something with the Month is wrong");
                     return false;
                 }
 
@@ -248,7 +248,7 @@ client.on("message", async message => {
             }
             else{
                 console.log("User: "+message.member.id+" did a typo or smth");
-                message.channel.send("...");
+                message.channel.send("Make sure the format is mm.dd.");
                 return false;
             }
         }
