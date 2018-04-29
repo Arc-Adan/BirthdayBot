@@ -2,6 +2,8 @@ var Discord = require("discord.js");
 var fs = require("fs");
 var watch = require("node-watch");
 
+//LakelynBot <3
+
 
 
 const client = new Discord.Client();
