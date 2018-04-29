@@ -1,6 +1,11 @@
-1. Execute "Setup.bat" as ADMINISTRATOR. It will Download and Install node.js and the required modules.
-2. Change the Token and the channelID.
-3. Execute "Start.bat".
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -node -v
+sudo apt-get install -y nodejssudo
+sudo apt-get install -y build-essential
+npm install --save discord.js
+npm install fs
+npm install node-watch
+
+Change the Token and the channelID in config.json
 
 If any error occur or if you have any questions feel free to DM me on Discord "Sir Muffin™#8911"
 

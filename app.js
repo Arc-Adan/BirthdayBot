@@ -1,6 +1,6 @@
-var Discord = require(".\discord.js");
-var fs = require(".\fs");
-var watch = require(".\node-watch");
+var Discord = require("discord.js");
+var fs = require("fs");
+var watch = require("node-watch");
 
 
 
@@ -190,6 +190,7 @@ client.on("message", async message => {
         data.tab.every(function () {
 			if (ID == data.tab[a]) {
                 check = true;
+				console.log("ID check = already known");
                 return false;
             }
             else{
@@ -197,7 +198,7 @@ client.on("message", async message => {
 			    return true;
 			}
         });
-            console.log("ID check = already known");
+            
         if(check == false) {
             if (regex.test(UserInput) == true) {
 
