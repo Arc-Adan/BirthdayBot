@@ -1,3 +1,6 @@
+//---------------------------------------------------------------------
+//		Discord Birthday bot written for https://discord.me/evac
+//---------------------------------------------------------------------
 var Discord = require("discord.js");
 var fs = require("fs");
 var watch = require("node-watch");
