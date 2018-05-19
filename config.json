@@ -1,1 +1,1 @@
-{"token":"YOUR TOKEN HERE","prefix":"..","command":"add","channelID":"YOU CHANNELID HERE","time":"0"}
+{"token":"","prefix":"..","command":"add","channelID":"","time":"12","log":"on","removemsg":"off","errmsg01":"Something with the Day is wrong","errmsg02":"Something with the Month is wrong","errmsg03":"Make sure the format is mm.dd.","errmsg04":"You already added your birthday","donemsg01":":ok_hand:"}
