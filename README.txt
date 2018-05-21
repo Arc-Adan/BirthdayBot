@@ -1,10 +1,12 @@
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash
--sudo apt-get install -y nodejs
+sudo apt-get update
+sudo apt-get install git
+sudo apt-get install -y nodejs
 sudo apt-get install -y build-essential
 npm install --save discord.js
 npm install fs
 npm install node-watch
-
+git clone https://github.com/Marvin-Block/BirthdayBot
 
 Change the Token and the channelID in config.json
 If any error occur or if you have any questions feel free to DM me on Discord "Muffin#1337"
